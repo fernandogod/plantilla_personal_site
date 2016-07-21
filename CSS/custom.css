@@ -11,7 +11,7 @@ body {
 
 .banner {
   width: 100%;
-  height: 35vh;
+  height: 30vh;
   top: 0;
   background-image: url("../img/banner.jpg");
   background-size: 100% 100%;
@@ -37,4 +37,24 @@ header {
   position: absolute;
   background-image: url('../img/picture_profile.jpg');
   background-size: contain;
+}
+
+aside.aside_left {
+  padding-top: 60px;
+  padding-left: 100px;
+  padding-bottom: 0;
+}
+
+aside ul {
+  list-style: none;
+}
+
+article {
+  padding-top: 60px;
+}
+
+aside.aside_right {
+  padding-top: 60px;
+  padding-left: 100px;
+  padding-bottom: 0;
 }
